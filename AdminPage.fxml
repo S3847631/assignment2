@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1200.0" prefHeight="637.0" prefWidth="1029.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminPageController">
+   <children>
+      <SplitPane prefHeight="637.0" prefWidth="201.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="635.0" prefWidth="255.0">
+               <children>
+                  <Label fx:id="addStaff" layoutX="63.0" layoutY="5.0" onMouseClicked="#ClickAddStaff" prefHeight="82.0" prefWidth="142.0" style="-fx-font-size: 30;" text="Add Staff" AnchorPane.bottomAnchor="548.0" AnchorPane.leftAnchor="63.0" AnchorPane.topAnchor="5.0" />
+                  <Label fx:id="Resident" layoutX="66.0" layoutY="101.0" onMouseClicked="#ClickResident" prefHeight="113.0" prefWidth="133.0" style="-fx-font-size: 30;" text="Resident" />
+                  <Label fx:id="Shift" layoutX="74.0" layoutY="216.0" onMouseClicked="#ClickShift" prefHeight="106.0" prefWidth="133.0" style="-fx-font-size: 30;" text="Shift" />
+                  <ImageView fitHeight="40.0" fitWidth="41.0" layoutX="17.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/staff.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="11.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/resident.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="16.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/Shift.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <AnchorPane fx:id="Anch1" layoutX="201.0" layoutY="1.0" prefHeight="635.0" prefWidth="829.0">
+         <children>
+            <Label layoutX="32.0" layoutY="30.0" style="-fx-font-size: 60;" text="Login Sucess!" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
