@@ -1,0 +1,2 @@
+ READ ME * All the document included  are put into the zip folder. My Java version was  Intelli Idea CE from java 8.0 version, JavaFX version 11.0  and also using my sql database to  create this project. * First, you have to unzip folder and directly open the file then go to src folder to login. Java and execute the folder. * Also, it need to execute mysql while executing the java code. 
+-github line:https://github.com/S3847631/assignment2`
