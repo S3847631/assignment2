@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="525.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Shift">
+   <children>
+      <TableView fx:id="table" layoutY="14.0" prefHeight="525.0" prefWidth="807.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="staff" prefWidth="128.85711669921875" text="Staff ID" />
+          <TableColumn fx:id="name" prefWidth="148.14288330078125" text="Name" />
+            <TableColumn fx:id="job" prefWidth="87.85711669921875" text="Job" />
+            <TableColumn fx:id="working" prefWidth="201.2857666015625" text="Working Hours" />
+            <TableColumn fx:id="off_working" prefWidth="241.0" text="Off-Working Hours" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

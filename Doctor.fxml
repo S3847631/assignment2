@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DoctorCon">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="34.0" prefWidth="600.0">
+        <menus>
+          <Menu fx:id="ward1" mnemonicParsing="false" onAction="#ClickWard1" text="Ward1">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ClickWard1" text="WARD1" />
+            </items>
+          </Menu>
+          <Menu fx:id="ward2" mnemonicParsing="false" onAction="#ClickWard2" text="Ward2">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ClickWard2" text="WARD2" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="mainAnch" layoutY="36.0" prefHeight="363.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="26.0" layoutY="74.0" text="Welcome to CareHome!">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="26.0" text="Login Sucesed.">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -9,6 +9,15 @@ import java.util.Date;
 public class Resident {
     private String name;
     private String ID;
+    private int BedID;
+
+    public int getBedID() {
+        return BedID;
+    }
+
+    public void setBedID(int bedID) {
+        BedID = bedID;
+    }
 
     public String getGender() {
         return gender;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="538.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ModifyEmployed">
+   <children>
+      <TableView fx:id="table" prefHeight="538.0" prefWidth="729.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="staff" prefWidth="146.0" text="Staff ID" />
+          <TableColumn fx:id="name" prefWidth="116.71429443359375" text="Name" />
+            <TableColumn fx:id="password" minWidth="0.714263916015625" prefWidth="180.28570556640625" text="Password" />
+            <TableColumn fx:id="job" minWidth="0.0" prefWidth="105.4285888671875" text="Job" />
+            <TableColumn fx:id="phone" minWidth="0.0" prefWidth="228.7142333984375" text="Phone" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

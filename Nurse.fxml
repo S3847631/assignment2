@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="474.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Nurse">
+   <children>
+      <MenuBar layoutY="6.0" prefHeight="45.0" prefWidth="771.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Staff">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#addStaff" text="Add Staff" />
+                  <MenuItem mnemonicParsing="false" onAction="#modifyEmploeye" text="Modify Employee" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Resident">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ward1" text="Ward1" />
+                  <MenuItem mnemonicParsing="false" onAction="#ward2" text="Ward2" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Shift">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#shift" text="Shift" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="mainFrame" layoutY="52.0" prefHeight="422.0" prefWidth="771.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="52.0">
+         <children>
+            <Label layoutX="30.0" layoutY="81.0" text="Welcome to CareHome System!">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
